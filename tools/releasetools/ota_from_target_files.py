@@ -852,19 +852,13 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
 
   system_progress = 0.75
 
-  script.Print("*********************************************");
-  script.Print("*       ##### ####****   ########****       *")
-  script.Print("*     ############**** ##########******     *")
-  script.Print("*    ####     ####****#####  ****  *****    *")
-  script.Print("*    ###       ###****####   ****   ****    *")
-  script.Print("*    ####     ####****#####  ****  *****    *")
-  script.Print("*     ############**** ##########******     *")
-  script.Print("*       ##### ####****   ########****       *")
-  script.Print("*                            ****           *")
-  script.Print("*                            ****           *")
-  script.Print("* www.aicp-rom.com   -   Get your flash ON  *")
-  script.Print("*********************************************");
-
+  script.Print("                                       / __ \ / ____|")
+  script.Print("  _ __ | |__   ___   ___ _ __ (_)_  __| |  | | (__   ")
+  script.Print(" | '_ \| '_ \ / _ \ / _ \ '_ \| \ \/ /| |  | |\___ \ ")
+  script.Print(" | |_) | | | | (_) |  __/ | | | |>  < | |__| |____) |")
+  script.Print(" | .__/|_| |_|\___/ \___|_| |_|_/_/\_\ \____/|_____/ ")
+  script.Print(" |_|                                                 ")
+  script.Print("                 www.swordhealth.com                 ")
 
   build = target_info.GetBuildProp("ro.build.date")
   script.Print("   Compiled: %s"%(build));
